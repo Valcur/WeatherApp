@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import WeatherAppComposant
+import WeatherAppUI
 
 @main
 struct WeatherAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WeatherApp(apiKey: "AAA")
         }
     }
 }
